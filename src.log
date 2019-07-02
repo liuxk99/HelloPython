@@ -1,0 +1,670 @@
+04-10 10:28:40.882  8875  8894 D jar     : initJars context=android.app.ContextImpl@469a85f
+04-10 10:28:40.882  8875  8875 I DynamicConfigManager: readFromCache use time = 3
+04-10 10:28:40.882  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=7
+04-10 10:28:40.883  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=1
+04-10 10:28:40.883  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:40.883  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:40.883  8875  8875 I ConfigManager: initAllParams()-done-ms=12
+04-10 10:28:40.883  8875  8875 E CibnInitLogic: onCreate
+04-10 10:28:40.884  8875  8875 I ConfigManager: version(v1.0.0-tv)
+04-10 10:28:40.886  8875  8875 I ConfigManager: initFromLocal-readJsonFileInAssets()-ms=2
+04-10 10:28:40.887  8875  8875 I ConfigManager: initFromLocal-jsonDynamicLocal-JSON.parseObject-ms=3
+04-10 10:28:40.887  8875  8875 I BaseConfigManager: setCustomConfigValue()-key=others.com.stv.plugin.wasu.video-new={"appId":"com.stv.plugin.wasu.video","bsChannel":"cibn","buildTime":"2019-03-19 20:14:10.994","businessId":"","client":"android","terminalApplication":"tv_desktop_wasu","terminalBrand":"media","versionCode":"2019031920","versionName":"1.3.1.000","versionProduct":"1.3.1"}
+04-10 10:28:40.887  8875  8894 D jar     : parseJars context=android.app.ContextImpl@469a85f
+04-10 10:28:40.888  8875  8875 I ConfigManager: initFromLocal-BaseConfigManager.init()-ms=0
+04-10 10:28:40.888  8875  8875 I ConfigManager: initAllParams()-initFromLocal-ms=4
+04-10 10:28:40.888  8875  8875 I DynamicConfigUtils: DynamicConfig init, SDK version=4.0.0-SNAPSHOT
+04-10 10:28:40.888  8875  8875 I DynamicConfigManager: DynamicConfigManager init
+04-10 10:28:40.891  8875  8875 D SharedPreferencesManager: getString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 
+04-10 10:28:40.891  8875  8875 I DynamicConfigManager: judge configversion, localConfigVersion = 1.3.1904.012, appVersion = 1.3.1904.012
+04-10 10:28:40.891  8875  8875 I DynamicConfigManager: readFromCache start
+04-10 10:28:40.893  8875  8875 I DynamicConfigManager: readFromCache success, content={"version":1,"modifiedDate":"2017-04-10","business":{"isNeedHttpCache":false,"isHttpDebug":true,"isNeedIpLooping":true,"isSupportStatistic":true,"isSupportDLNA":false,"isSupportHelmet":false,"isSupportViewMap":false,"isSupportEpisode":false},"common":{"dynamicDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","staticDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","reportDomain":"http:\/\/dc.cp21.ott.cibntv.net\/","otherReportDomain":"http:\/\/rec.cp21.ott.cibntv.net","dynamicConfigDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","dynamicLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","staticLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","g3DownloadDomain":"","g3DownloadIps":""},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}},"supportApp":{"cn.cibntv.ott":{"icon":"http:\/\/i3.letvimg.com\/lc02_iptv\/201603\/14\/15\/53\/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http:\/\/i2.letvimg.com\/lc04_iptv\/201701\/16\/16\/57\/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http:\/\/i3.letvimg.com\/lc07_iscms\/201710\/20\/14\/55\/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http:\/\/i0.letvimg.com\/lc02_iscms\/201802\/01\/18\/40\/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http:\/\/i3.letvimg.com\/lc06_img\/201804\/03\/21\/03\/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http:\/\/i3.letvimg.com\/lc03_iptv\/201804\/28\/16\/33\/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http:\/\/i1.letvimg.com\/lc03_iscms\/201710\/20\/15\/17\/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http:\/\/img.cloud.ottcn.com\/n3images\/img\/lesh
+04-10 10:28:40.894  8875  8875 I DynamicConfigManager: readFromCache use time = 3
+04-10 10:28:40.894  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=6
+04-10 10:28:40.896  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=1
+04-10 10:28:40.896  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:40.896  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:40.896  8875  8894 E JAR     : initJars lastVersionCode is 2019040410 currentVersionCode=2019040410 isClientUpgrade=false
+04-10 10:28:40.896  8875  8875 I ConfigManager: initAllParams()-done-ms=12
+04-10 10:28:40.897  8875  8875 E CibnInitLogic: onCreate
+04-10 10:28:40.898  8875  8875 I ConfigManager: version(v1.0.0-tv)
+04-10 10:28:40.901  8875  8875 I ConfigManager: initFromLocal-readJsonFileInAssets()-ms=3
+04-10 10:28:40.902  8875  8875 I ConfigManager: initFromLocal-jsonDynamicLocal-JSON.parseObject-ms=4
+04-10 10:28:40.903  8875  8875 I BaseConfigManager: setCustomConfigValue()-key=others.com.stv.plugin.mgtv.video-new={"appId":"com.stv.plugin.mgtv.video","bsChannel":"cibn","buildTime":"2019-03-19 20:10:06.533","businessId":"","client":"android","terminalApplication":"tv_desktop_imgo","terminalBrand":"media","versionCode":"2019031920","versionName":"1.0.0.003","versionProduct":"1.0.0"}
+04-10 10:28:40.904  8875  8875 I ConfigManager: initFromLocal-BaseConfigManager.init()-ms=1
+04-10 10:28:40.904  8875  8875 I ConfigManager: initAllParams()-initFromLocal-ms=6
+04-10 10:28:40.904  8875  8875 I DynamicConfigUtils: DynamicConfig init, SDK version=4.0.0-SNAPSHOT
+04-10 10:28:40.904  8875  8875 I DynamicConfigManager: DynamicConfigManager init
+04-10 10:28:40.907  8875  8875 D SharedPreferencesManager: getString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 
+04-10 10:28:40.907  8875  8875 I DynamicConfigManager: judge configversion, localConfigVersion = 1.3.1904.012, appVersion = 1.3.1904.012
+04-10 10:28:40.907  8875  8875 I DynamicConfigManager: readFromCache start
+04-10 10:28:40.910  8875  8875 I DynamicConfigManager: readFromCache success, content={"version":1,"modifiedDate":"2017-04-10","business":{"isNeedHttpCache":false,"isHttpDebug":true,"isNeedIpLooping":true,"isSupportStatistic":true,"isSupportDLNA":false,"isSupportHelmet":false,"isSupportViewMap":false,"isSupportEpisode":false},"common":{"dynamicDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","staticDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","reportDomain":"http:\/\/dc.cp21.ott.cibntv.net\/","otherReportDomain":"http:\/\/rec.cp21.ott.cibntv.net","dynamicConfigDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","dynamicLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","staticLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","g3DownloadDomain":"","g3DownloadIps":""},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}},"supportApp":{"cn.cibntv.ott":{"icon":"http:\/\/i3.letvimg.com\/lc02_iptv\/201603\/14\/15\/53\/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http:\/\/i2.letvimg.com\/lc04_iptv\/201701\/16\/16\/57\/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http:\/\/i3.letvimg.com\/lc07_iscms\/201710\/20\/14\/55\/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http:\/\/i0.letvimg.com\/lc02_iscms\/201802\/01\/18\/40\/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http:\/\/i3.letvimg.com\/lc06_img\/201804\/03\/21\/03\/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http:\/\/i3.letvimg.com\/lc03_iptv\/201804\/28\/16\/33\/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http:\/\/i1.letvimg.com\/lc03_iscms\/201710\/20\/15\/17\/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http:\/\/img.cloud.ottcn.com\/n3images\/img\/lesh
+04-10 10:28:40.915  8875  8875 I DynamicConfigManager: readFromCache use time = 8
+04-10 10:28:40.915  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=11
+04-10 10:28:40.917  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=2
+04-10 10:28:40.917  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:40.917  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:40.918  8875  8875 I ConfigManager: initAllParams()-done-ms=20
+04-10 10:28:40.927  8875  8875 E CibnInitLogic: onCreate
+04-10 10:28:40.928  8875  8875 I ConfigManager: version(v1.0.0-tv)
+04-10 10:28:40.930  8875  8875 I ConfigManager: initFromLocal-readJsonFileInAssets()-ms=2
+04-10 10:28:40.931  8875  8875 I ConfigManager: initFromLocal-jsonDynamicLocal-JSON.parseObject-ms=3
+04-10 10:28:40.931  8875  8875 I BaseConfigManager: setCustomConfigValue()-key=others.com.stv.plugin.brand.video-new={"appId":"com.stv.plugin.brand.video","bsChannel":"cibn","buildTime":"2019-03-08 14:05:10.368","businessId":"","client":"android","terminalApplication":"commercial_tvdesk","terminalBrand":"media","versionCode":"2019030814","versionName":"1.0.2.000","versionProduct":"1.0.2"}
+04-10 10:28:40.932  8875  8875 I ConfigManager: initFromLocal-BaseConfigManager.init()-ms=1
+04-10 10:28:40.932  8875  8875 I ConfigManager: initAllParams()-initFromLocal-ms=4
+04-10 10:28:40.932  8875  8875 I DynamicConfigUtils: DynamicConfig init, SDK version=4.0.0-SNAPSHOT
+04-10 10:28:40.932  8875  8875 I DynamicConfigManager: DynamicConfigManager init
+04-10 10:28:40.934  8875  8875 D SharedPreferencesManager: getString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 
+04-10 10:28:40.934  8875  8875 I DynamicConfigManager: judge configversion, localConfigVersion = 1.3.1904.012, appVersion = 1.3.1904.012
+04-10 10:28:40.935  8875  8875 I DynamicConfigManager: readFromCache start
+04-10 10:28:40.936  8875  8875 I DynamicConfigManager: readFromCache success, content={"version":1,"modifiedDate":"2017-04-10","business":{"isNeedHttpCache":false,"isHttpDebug":true,"isNeedIpLooping":true,"isSupportStatistic":true,"isSupportDLNA":false,"isSupportHelmet":false,"isSupportViewMap":false,"isSupportEpisode":false},"common":{"dynamicDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","staticDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","reportDomain":"http:\/\/dc.cp21.ott.cibntv.net\/","otherReportDomain":"http:\/\/rec.cp21.ott.cibntv.net","dynamicConfigDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","dynamicLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","staticLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","g3DownloadDomain":"","g3DownloadIps":""},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}},"supportApp":{"cn.cibntv.ott":{"icon":"http:\/\/i3.letvimg.com\/lc02_iptv\/201603\/14\/15\/53\/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http:\/\/i2.letvimg.com\/lc04_iptv\/201701\/16\/16\/57\/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http:\/\/i3.letvimg.com\/lc07_iscms\/201710\/20\/14\/55\/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http:\/\/i0.letvimg.com\/lc02_iscms\/201802\/01\/18\/40\/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http:\/\/i3.letvimg.com\/lc06_img\/201804\/03\/21\/03\/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http:\/\/i3.letvimg.com\/lc03_iptv\/201804\/28\/16\/33\/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http:\/\/i1.letvimg.com\/lc03_iscms\/201710\/20\/15\/17\/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http:\/\/img.cloud.ottcn.com\/n3images\/img\/lesh
+04-10 10:28:40.937  8875  8875 I DynamicConfigManager: readFromCache use time = 2
+04-10 10:28:40.938  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=6
+04-10 10:28:40.939  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=0
+04-10 10:28:40.939  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:40.939  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:40.939  8875  8875 I ConfigManager: initAllParams()-done-ms=11
+04-10 10:28:40.939  8875  8875 I KidsInitLogic: onCreate
+04-10 10:28:40.940  8875  8875 I ConfigManager: version(v1.0.0-tv)
+04-10 10:28:40.942  8875  8875 I ConfigManager: initFromLocal-readJsonFileInAssets()-ms=2
+04-10 10:28:40.943  8875  8875 I ConfigManager: initFromLocal-jsonDynamicLocal-JSON.parseObject-ms=3
+04-10 10:28:40.944  8875  8875 I BaseConfigManager: setCustomConfigValue()-key=others.com.stv.plugin.shopping-new={"appId":"com.stv.plugin.shopping","bsChannel":"cibn","buildTime":"2019-04-04 10:26:09.817","businessId":"","client":"android","terminalApplication":"tv_desktop_shopping","terminalBrand":"letv","versionCode":"2019040410","versionName":"5.0.0.012","versionProduct":"5.0.0"}
+04-10 10:28:40.945  8875  8875 I ConfigManager: initFromLocal-BaseConfigManager.init()-ms=1
+04-10 10:28:40.945  8875  8875 I ConfigManager: initAllParams()-initFromLocal-ms=5
+04-10 10:28:40.945  8875  8875 I DynamicConfigUtils: DynamicConfig init, SDK version=4.0.0-SNAPSHOT
+04-10 10:28:40.945  8875  8875 I DynamicConfigManager: DynamicConfigManager init
+04-10 10:28:40.953  8875  8875 D SharedPreferencesManager: getString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 
+04-10 10:28:40.953  8875  8875 I DynamicConfigManager: judge configversion, localConfigVersion = 1.3.1904.012, appVersion = 1.3.1904.012
+04-10 10:28:40.953  8875  8875 I DynamicConfigManager: readFromCache start
+04-10 10:28:40.955  8875  8875 I DynamicConfigManager: readFromCache success, content={"version":1,"modifiedDate":"2017-04-10","business":{"isNeedHttpCache":false,"isHttpDebug":true,"isNeedIpLooping":true,"isSupportStatistic":true,"isSupportDLNA":false,"isSupportHelmet":false,"isSupportViewMap":false,"isSupportEpisode":false},"common":{"dynamicDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","staticDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","reportDomain":"http:\/\/dc.cp21.ott.cibntv.net\/","otherReportDomain":"http:\/\/rec.cp21.ott.cibntv.net","dynamicConfigDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","dynamicLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","staticLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","g3DownloadDomain":"","g3DownloadIps":""},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}},"supportApp":{"cn.cibntv.ott":{"icon":"http:\/\/i3.letvimg.com\/lc02_iptv\/201603\/14\/15\/53\/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http:\/\/i2.letvimg.com\/lc04_iptv\/201701\/16\/16\/57\/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http:\/\/i3.letvimg.com\/lc07_iscms\/201710\/20\/14\/55\/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http:\/\/i0.letvimg.com\/lc02_iscms\/201802\/01\/18\/40\/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http:\/\/i3.letvimg.com\/lc06_img\/201804\/03\/21\/03\/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http:\/\/i3.letvimg.com\/lc03_iptv\/201804\/28\/16\/33\/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http:\/\/i1.letvimg.com\/lc03_iscms\/201710\/20\/15\/17\/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http:\/\/img.cloud.ottcn.com\/n3images\/img\/lesh
+04-10 10:28:40.957  8875  8875 I DynamicConfigManager: readFromCache use time = 3
+04-10 10:28:40.957  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=12
+04-10 10:28:40.958  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=1
+04-10 10:28:40.958  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:40.958  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:40.958  8875  8875 I ConfigManager: initAllParams()-done-ms=18
+04-10 10:28:40.958  8875  8875 E TeleplayInitLogic: onCreate
+04-10 10:28:40.959  8875  8875 I ConfigManager: version(v1.0.0-tv)
+04-10 10:28:40.960  8875  8875 I ConfigManager: initFromLocal-readJsonFileInAssets()-ms=1
+04-10 10:28:40.962  8875  8875 I ConfigManager: initFromLocal-jsonDynamicLocal-JSON.parseObject-ms=2
+04-10 10:28:40.962  8875  8875 I BaseConfigManager: setCustomConfigValue()-key=others.com.stv.plugin.teleplay-new={"appId":"com.stv.plugin.teleplay","bsChannel":"cibn","buildTime":"2019-04-04 10:26:09.584","businessId":"","client":"android","terminalApplication":"tv_desktop_teleplay","terminalBrand":"letv","versionCode":"2019040410","versionName":"1.0.0.064","versionProduct":"1.0.0"}
+04-10 10:28:40.962  8875  8875 I ConfigManager: initFromLocal-BaseConfigManager.init()-ms=0
+04-10 10:28:40.962  8875  8875 I ConfigManager: initAllParams()-initFromLocal-ms=3
+04-10 10:28:40.962  8875  8875 I DynamicConfigUtils: DynamicConfig init, SDK version=4.0.0-SNAPSHOT
+04-10 10:28:40.962  8875  8875 I DynamicConfigManager: DynamicConfigManager init
+04-10 10:28:40.966  8875  8875 D SharedPreferencesManager: getString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 
+04-10 10:28:40.966  8875  8875 I DynamicConfigManager: judge configversion, localConfigVersion = 1.3.1904.012, appVersion = 1.3.1904.012
+04-10 10:28:40.966  8875  8875 I DynamicConfigManager: readFromCache start
+04-10 10:28:40.968  8875  8875 I DynamicConfigManager: readFromCache success, content={"version":1,"modifiedDate":"2017-04-10","business":{"isNeedHttpCache":false,"isHttpDebug":true,"isNeedIpLooping":true,"isSupportStatistic":true,"isSupportDLNA":false,"isSupportHelmet":false,"isSupportViewMap":false,"isSupportEpisode":false},"common":{"dynamicDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","staticDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","reportDomain":"http:\/\/dc.cp21.ott.cibntv.net\/","otherReportDomain":"http:\/\/rec.cp21.ott.cibntv.net","dynamicConfigDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","dynamicLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","staticLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","g3DownloadDomain":"","g3DownloadIps":""},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}},"supportApp":{"cn.cibntv.ott":{"icon":"http:\/\/i3.letvimg.com\/lc02_iptv\/201603\/14\/15\/53\/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http:\/\/i2.letvimg.com\/lc04_iptv\/201701\/16\/16\/57\/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http:\/\/i3.letvimg.com\/lc07_iscms\/201710\/20\/14\/55\/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http:\/\/i0.letvimg.com\/lc02_iscms\/201802\/01\/18\/40\/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http:\/\/i3.letvimg.com\/lc06_img\/201804\/03\/21\/03\/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http:\/\/i3.letvimg.com\/lc03_iptv\/201804\/28\/16\/33\/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http:\/\/i1.letvimg.com\/lc03_iscms\/201710\/20\/15\/17\/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http:\/\/img.cloud.ottcn.com\/n3images\/img\/lesh
+04-10 10:28:40.969  8875  8875 I DynamicConfigManager: readFromCache use time = 3
+04-10 10:28:40.969  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=7
+04-10 10:28:40.970  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=1
+04-10 10:28:40.970  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:40.970  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:40.970  8875  8875 I ConfigManager: initAllParams()-done-ms=11
+04-10 10:28:40.971  8875  8875 E TemplateInitLogic: onCreate
+04-10 10:28:40.971  8875  8875 I ConfigManager: version(v1.0.0-tv)
+04-10 10:28:40.973  8875  8875 I ConfigManager: initFromLocal-readJsonFileInAssets()-ms=2
+04-10 10:28:40.975  8875  8875 I ConfigManager: initFromLocal-jsonDynamicLocal-JSON.parseObject-ms=4
+04-10 10:28:40.975  8875  8875 I BaseConfigManager: setCustomConfigValue()-key=others.com.stv.plugin.movie-new={"appId":"com.stv.plugin.movie","bsChannel":"cibn","buildTime":"2019-04-04 10:26:10.215","businessId":"","client":"android","terminalApplication":"tv_desktop_movie","terminalBrand":"letv","versionCode":"2019040410","versionName":"1.0.0.021","versionProduct":"1.0.0"}
+04-10 10:28:40.975  8875  8875 I ConfigManager: initFromLocal-BaseConfigManager.init()-ms=0
+04-10 10:28:40.975  8875  8875 I ConfigManager: initAllParams()-initFromLocal-ms=4
+04-10 10:28:40.975  8875  8875 I DynamicConfigUtils: DynamicConfig init, SDK version=4.0.0-SNAPSHOT
+04-10 10:28:40.976  8875  8875 I DynamicConfigManager: DynamicConfigManager init
+04-10 10:28:40.978  8875  8875 D SharedPreferencesManager: getString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 
+04-10 10:28:40.978  8875  8875 I DynamicConfigManager: judge configversion, localConfigVersion = 1.3.1904.012, appVersion = 1.3.1904.012
+04-10 10:28:40.979  8875  8875 I DynamicConfigManager: readFromCache start
+04-10 10:28:40.982  8875  8875 I DynamicConfigManager: readFromCache success, content={"version":1,"modifiedDate":"2017-04-10","business":{"isNeedHttpCache":false,"isHttpDebug":true,"isNeedIpLooping":true,"isSupportStatistic":true,"isSupportDLNA":false,"isSupportHelmet":false,"isSupportViewMap":false,"isSupportEpisode":false},"common":{"dynamicDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","staticDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","reportDomain":"http:\/\/dc.cp21.ott.cibntv.net\/","otherReportDomain":"http:\/\/rec.cp21.ott.cibntv.net","dynamicConfigDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","dynamicLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","staticLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","g3DownloadDomain":"","g3DownloadIps":""},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}},"supportApp":{"cn.cibntv.ott":{"icon":"http:\/\/i3.letvimg.com\/lc02_iptv\/201603\/14\/15\/53\/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http:\/\/i2.letvimg.com\/lc04_iptv\/201701\/16\/16\/57\/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http:\/\/i3.letvimg.com\/lc07_iscms\/201710\/20\/14\/55\/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http:\/\/i0.letvimg.com\/lc02_iscms\/201802\/01\/18\/40\/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http:\/\/i3.letvimg.com\/lc06_img\/201804\/03\/21\/03\/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http:\/\/i3.letvimg.com\/lc03_iptv\/201804\/28\/16\/33\/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http:\/\/i1.letvimg.com\/lc03_iscms\/201710\/20\/15\/17\/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http:\/\/img.cloud.ottcn.com\/n3images\/img\/lesh
+04-10 10:28:40.983  8875  8875 I DynamicConfigManager: readFromCache use time = 4
+04-10 10:28:40.983  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=8
+04-10 10:28:40.984  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=1
+04-10 10:28:40.984  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:40.984  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:40.984  8875  8875 I ConfigManager: initAllParams()-done-ms=13
+04-10 10:28:40.984  8875  8894 E hash:   : ec:2b:98:b2:83:68:a4:94:08:ba:6f:0e:ba:45:a1:da
+04-10 10:28:40.985  8875  8894 E JAR     : JarUtil_check checkSignInfo=>File sign is ec:2b:98:b2:83:68:a4:94:08:ba:6f:0e:ba:45:a1:da
+04-10 10:28:40.985  8875  8894 E JAR     : JarUtil_check checkSignInfo=>File sign: ec:2b:98:b2:83:68:a4:94:08:ba:6f:0e:ba:45:a1:da is equal EC:2B:98:B2:83:68:A4:94:08:BA:6F:0E:BA:45:A1:DA
+04-10 10:28:40.985  8875  8894 E JAR     : JarUtil_check =>签名信息和配置的签名信息一致
+04-10 10:28:40.986  8875  8894 E JAR     : JarUtil_check =>ad file md5 is: 
+04-10 10:28:40.989  8875  8875 I ConfigManager: version(v1.0.0-tv)
+04-10 10:28:40.996  8875  8875 I ConfigManager: initFromLocal-readJsonFileInAssets()-ms=7
+04-10 10:28:40.997  8875  8875 I ConfigManager: initFromLocal-jsonDynamicLocal-JSON.parseObject-ms=8
+04-10 10:28:40.999  8875  8875 I ConfigManager: initFromLocal-BaseConfigManager.init()-ms=2
+04-10 10:28:41.000  8875  8875 I ConfigManager: initAllParams()-initFromLocal-ms=11
+04-10 10:28:41.000  8875  8875 I DynamicConfigUtils: DynamicConfig init, SDK version=4.0.0-SNAPSHOT
+04-10 10:28:41.000  8875  8875 I DynamicConfigManager: DynamicConfigManager init
+04-10 10:28:41.001  8875  8894 E JAR     : JarUtil_check checkMD5=>File MD5: be8dc50d0686f5b489fc0695213de4bb
+04-10 10:28:41.002  8875  8894 E JAR     : JarUtil_check checkMD5=>File's MD5 == be8dc50d0686f5b489fc0695213de4bb is equal comparebe8dc50d0686f5b489fc0695213de4bb
+04-10 10:28:41.002  8875  8875 D SharedPreferencesManager: getString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 
+04-10 10:28:41.002  8875  8875 I DynamicConfigManager: judge configversion, localConfigVersion = 1.3.1904.012, appVersion = 1.3.1904.012
+04-10 10:28:41.002  8875  8875 I DynamicConfigManager: readFromCache start
+04-10 10:28:41.003  8875  8894 E JAR     : JarUtil_check =>updateADSAPK updateFileExist=false soUpdateFileExist=false
+04-10 10:28:41.003  8875  8894 E AdSDKManagerProxy: after initJars
+04-10 10:28:41.004  8875  8875 I DynamicConfigManager: readFromCache success, content={"version":1,"modifiedDate":"2017-04-10","business":{"isNeedHttpCache":false,"isHttpDebug":true,"isNeedIpLooping":true,"isSupportStatistic":true,"isSupportDLNA":false,"isSupportHelmet":false,"isSupportViewMap":false,"isSupportEpisode":false},"common":{"dynamicDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","staticDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","reportDomain":"http:\/\/dc.cp21.ott.cibntv.net\/","otherReportDomain":"http:\/\/rec.cp21.ott.cibntv.net","dynamicConfigDomain":"https:\/\/api-oeco-itv.cp21.ott.cibntv.net\/","dynamicLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","staticLoopingIps":"https:\/\/36.110.196.249\/;https:\/\/123.125.38.247\/;https:\/\/123.59.177.208\/","g3DownloadDomain":"","g3DownloadIps":""},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}},"supportApp":{"cn.cibntv.ott":{"icon":"http:\/\/i3.letvimg.com\/lc02_iptv\/201603\/14\/15\/53\/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http:\/\/i2.letvimg.com\/lc04_iptv\/201701\/16\/16\/57\/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http:\/\/i3.letvimg.com\/lc07_iscms\/201710\/20\/14\/55\/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http:\/\/i0.letvimg.com\/lc02_iscms\/201802\/01\/18\/40\/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http:\/\/i3.letvimg.com\/lc06_img\/201804\/03\/21\/03\/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http:\/\/i3.letvimg.com\/lc03_iptv\/201804\/28\/16\/33\/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http:\/\/i1.letvimg.com\/lc03_iscms\/201710\/20\/15\/17\/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http:\/\/img.cloud.ottcn.com\/n3images\/img\/lesh
+04-10 10:28:41.005  8875  8875 I DynamicConfigManager: readFromCache use time = 3
+04-10 10:28:41.005  8875  8875 I ConfigManager: initAllParams()-DynamicConfigUtils.init-ms=5
+04-10 10:28:41.005  8875  8894 E JAR     :  loadClass-- before
+04-10 10:28:41.006  8875  8875 I ConfigManager: initAllParams()-initFromDynamic-ms=1
+04-10 10:28:41.006  8875  8875 I ConfigManager: updateParamsFromWhiteList()-size=0
+04-10 10:28:41.006  8875  8875 I ConfigManager: initAllParams()-updateParamsFromWhiteList-ms=0
+04-10 10:28:41.006  8875  8875 I ConfigManager: initAllParams()-done-ms=17
+04-10 10:28:41.008  8875  8875 I DevicesUtils: getTerminalSeries
+04-10 10:28:41.009  8875  8894 E JAR     :  loadClass-- after
+04-10 10:28:41.012  8875  8894 E ReflectionUtils: callADObjectMethod class=class com.letv.adsdk.AdSDKManager   methodName=getInstance
+04-10 10:28:41.015  8875  8875 I DynamicConfigManager: startSyncConfig syncState=0
+04-10 10:28:41.039  8875  8875 I lebugreport: init
+04-10 10:28:41.044  8875  8875 I lebugreport: tv,flush
+04-10 10:28:41.048  8875  8900 I lebugreport: errorFiles is null
+04-10 10:28:41.051  1723  2336 W ActivityManager: getRunningAppProcesses: caller 10032 does not hold REAL_GET_TASKS; limiting output
+04-10 10:28:41.059  8875  8875 E NetworkChangeReceiver: [com.stv.deskplatform][1.3.1904.012] : network is changed
+04-10 10:28:41.060  8875  8875 I lebugreport: network changed
+04-10 10:28:41.061  8875  8875 I lebugreport: tv,flush
+04-10 10:28:41.061  8875  8900 I lebugreport: errorFiles is null
+04-10 10:28:41.069  8875  8894 I aa      : getResource is 2
+04-10 10:28:41.069  8875  8894 I aa      : pgname is com.letv.adsdk
+04-10 10:28:41.069  8875  8894 I aa      : path is /data/data/com.stv.deskplatform/app_dex/Letv_Ads.apk
+04-10 10:28:41.072  8875  8894 I aa      : path is 1
+04-10 10:28:41.072  8875  8894 I aa      : path is 2
+04-10 10:28:41.074  8875  8894 I aa      : path is 3
+04-10 10:28:41.074  8875  8894 E AdSDKManagerProxy: getInstance realClass=class com.letv.adsdk.AdSDKManager  realSubject=com.letv.adsdk.AdSDKManager@a2ef147  jres=com.letv.plugin.pluginloader.loader.JarResources@76a8d74
+04-10 10:28:41.075  8875  8894 E ReflectionUtils: callADVoidMethod class=class com.letv.adsdk.AdSDKManager   methodName=initAd
+04-10 10:28:41.076  8875  8894 E AdSDKManager: adParentPath:/data/data/com.stv.deskplatform
+04-10 10:28:41.077  8875  8894 E AdSDKManager: initAdData initMapMsg=p1:2,UiType :cibn,mac:C80E77F9802B,pv:2.1.0,deviceType:3,wmac:b8:fc:9a:20:44:7c,apprunid:45d0c18076e710e151a16894e335b2ee_1554863320877,p2:2t,UiVersion :5.0,cuid:45d0c18076e710e151a16894e335b2ee,broadcast_type:2,isDebug:1,isTest:0,p3:letvrelease_0_0_1_2,model:S255U,
+04-10 10:28:41.077  8875  8894 E AdSDKManager: hasInited=false context=android.app.ContextImpl@469a85f
+04-10 10:28:41.081  8875  8904 E ads     : readAssetsConfig configStr={
+04-10 10:28:41.081  8875  8904 E ads     :   "VERSION": "2",
+04-10 10:28:41.081  8875  8904 E ads     :   "APPTYPE": "37",
+04-10 10:28:41.081  8875  8904 E ads     :   "APPNAME": "tvLeJian",
+04-10 10:28:41.081  8875  8904 E ads     :   "ARK_KEYS": "np,1265;",
+04-10 10:28:41.081  8875  8904 E ads     :   "libName": "tvLeJianAdSDK",
+04-10 10:28:41.081  8875  8904 E ads     :   "exposeHandle": "1",
+04-10 10:28:41.081  8875  8904 E ads     :   "clickHandle": "0"
+04-10 10:28:41.081  8875  8904 E ads     : }
+04-10 10:28:41.083  8875  8894 E AdSDKManager: initAd zxing e=java.lang.ClassNotFoundException: com.google.zxing.qrcode.QRCodeWriter
+04-10 10:28:41.084  8875  8904 E AdSDKManager: apkFile=/data/data/com.stv.deskplatform/app_dex/Letv_Ads.apk
+04-10 10:28:41.084  8875  8894 E AdSDKManager: initAd e=java.lang.ClassNotFoundException: com.nostra13.universalimageloader.core.ImageLoader
+04-10 10:28:41.085  8875  8894 E AdSDKManagerProxy: setShowAd showAd=true
+04-10 10:28:41.085  8875  8875 E AdSDKManager: onReceive curNetStatus=1
+04-10 10:28:41.085  8875  8894 E ReflectionUtils: callADVoidMethod class=class com.letv.adsdk.AdSDKManager   methodName=setShowAd
+04-10 10:28:41.085  8875  8894 E ReflectionUtils: callADVoidMethod class=class com.letv.adsdk.AdSDKManager   methodName=setADEventListener
+04-10 10:28:41.086  8875  8904 E AppInfoUtils: getPackageInfo apkFilepath=/data/data/com.stv.deskplatform/app_dex/Letv_Ads.apk
+04-10 10:28:41.089  8875  8904 E AdSDKManager: getPackageInfo packageInfo=PackageInfo{3bcaeb99 com.letv.adsdk}
+04-10 10:28:41.089  8875  8904 E AdSDKManager: getPackageInfo apsVersion=40
+04-10 10:28:41.093  8875  8904 E ads     : 初始化广告
+04-10 10:28:41.097  8875  8904 W System.err: android.content.pm.PackageManager$NameNotFoundException: com.android.vending
+04-10 10:28:41.097  8875  8904 W System.err: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:118)
+04-10 10:28:41.097  8875  8904 W System.err: 	at com.letv.adsdk.utils.ae.a(adsourceFile:28)
+04-10 10:28:41.097  8875  8904 W System.err: 	at com.letv.adsdk.utils.DeviceInfoUtils.b(adsourceFile:118)
+04-10 10:28:41.097  8875  8904 W System.err: 	at com.letv.adsdk.ab.run(adsourceFile:400)
+04-10 10:28:41.099  8875  8904 E AdSDKManager: initAd adConfigBean=com.letv.adsdk.a.ab@34a2c23f
+04-10 10:28:41.100  8875  8904 E AdSDKManager: initAd adConfigBean version=2 appType=37 libName=tvLeJianAdSDK clickHandle=0
+04-10 10:28:41.104  8875  8904 E AdSDKManager: initAd client lastVersionCode= 2019040410 curClientVersionCode=2019040410 isClientUpgrade=false
+04-10 10:28:41.107  8875  8904 E ads     : readAssetsConfig configStr=<?xml version="1.0" encoding="utf-8"?><config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="SDKSchema.xsd" version="8" plat="TV"><offlineCache><length>0</length><queueExpirationSecs>3600</queueExpirationSecs><timeout>15</timeout><retryLimit>3</retryLimit><ark_timeout>5</ark_timeout><ark_retryLimit>1</ark_retryLimit><ark_offlinead_expiration>259200</ark_offlinead_expiration><offline_Wifi_Timeout>2</offline_Wifi_Timeout><offline_Wifi_RetryLimit>1</offline_Wifi_RetryLimit></offlineCache><ark><keys><![CDATA[s,760;clock,739;c_l,837;c,551;c_1,552;c_2,553;c_3,554;c_4,555;c_5,556;c_9,557;c_11,558;c_14,559;c_16,560;c_20,561;c_22,562;c_23,563;c_34,564;c_1021,840;]]></keys><xkeys><![CDATA[s,759;clock,740;c_l,836;c,565;c_1,566;c_2,567;c_3,568;c_4,569;c_5,570;c_9,571;c_11,572;c_14,573;c_16,574;c_20,575;c_22,576;c_23,577;c_34,578;c_1021,841;]]></xkeys><vTarget><![CDATA[0;2;6;7]]></vTarget><bitrate><![CDATA[1:350;2:800;3:1300;4:720p;5:1080p3m,1080p6m;6:2k;7:4k]]></bitrate><adconfig><![CDATA[a:1;b:1;c:1;d:1;e:1;f:1;g:0;h:1;k:1;m:1;n:1;p:0;q:1]]></adconfig><adipdx><interval>3600</interval><url><![CDATA[letv.axp.admaster.com.cn/madv?tid=1066&mediauid=[MEDIACOOKIE]&idfa=[IDFA]&imei=[IMEI]&adrid=[Android]&mac=[MAC]&udid=[openudid]]]></url></adipdx><preplaytimeout><online>8</online><offlinewifi>2</offlinewifi><offlineother>2</offlineother><reachmax>2</reachmax><thirdparty>2</thirdparty><miaozhen>2</miaozhen></preplaytimeout><coderate><![CDATA[0:0;350:1;1:1;800:2;2:2;1300:3;3:3;720p:4;4:4;5:1080p3m:5;1080p6m:5;5:5;2k:6;6:6;4k:7;7:7]]></coderate></ark><companies><company><name>admaster</name><dsp>6</dsp><domain><url>admaster.com.cn</url></domain><switch><isTrackLocation>false</isTrackLocation><offlineCacheExpiration>86400</offlineCacheExpiration><encrypt><MAC>md5</MAC><IDA>md5</IDA><ANDROIDID>raw</ANDROIDID></encrypt></switch><config><arguments><argument><key>OS</key><value>0a</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>OS</key><value>[OS]</value><urlEncode>true</urlEncode><isAttached>false</isAttached><isRequired>true</isRequired></argument><argument><key>TS</key><value>t</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>MAC</key><value>n</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>MAC</key><value>[MAC]</value><urlEncode>true</urlEncode><isAttached>false</isAttached><isRequired>true</isRequired></argument><argument><key>ANDROIDID</key><value>0d</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>ANDROIDID</key><value>[Android]</value><urlEncode>true</urlEncode><isAttached>false</isAttached><isRequired>true</isRequired></argument><argument><key>WIFI</key><value>w</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>AKEY</key><value>x</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>ANAME</key><value>y</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>SCWH</key><value>0f</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>ODIN</key><value>0g</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>TERM</key><value>r</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>OSVS</key><value>q</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>LBS</key><value>l</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>MUID</key><value>0h</value><urlEncode>true</urlEncode><i
+04-10 10:28:41.110  1723  2344 I LocationBlacklist: hasEuiPermission : com.stv.deskplatform
+04-10 10:28:41.112  1932  6680 D LetvHelperService: TvMasterDBHelper -- checkPermission packageName=com.stv.deskplatform,type = position,al = null
+04-10 10:28:41.114  8875  8904 E LocationUtil: Location is null
+04-10 10:28:41.115  8875  8904 E LocationUtil: 1554863321115:mma_Error data LBSjava.lang.RuntimeException: Can't create handler inside thread that has not called Looper.prepare()
+04-10 10:28:41.115  8875  8904 W System.err: java.lang.RuntimeException: Can't create handler inside thread that has not called Looper.prepare()
+04-10 10:28:41.115  8875  8904 W System.err: 	at android.os.Handler.<init>(Handler.java:200)
+04-10 10:28:41.115  8875  8904 W System.err: 	at android.os.Handler.<init>(Handler.java:114)
+04-10 10:28:41.115  8875  8904 W System.err: 	at android.location.LocationManager$ListenerTransport$1.<init>(LocationManager.java:223)
+04-10 10:28:41.115  8875  8904 W System.err: 	at android.location.LocationManager$ListenerTransport.<init>(LocationManager.java:223)
+04-10 10:28:41.115  8875  8904 W System.err: 	at android.location.LocationManager.wrapListener(LocationManager.java:851)
+04-10 10:28:41.115  8875  8904 W System.err: 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:864)
+04-10 10:28:41.115  8875  8904 W System.err: 	at android.location.LocationManager.requestLocationUpdates(LocationManager.java:459)
+04-10 10:28:41.115  8875  8904 W System.err: 	at com.letv.adsdk.utils.cb.b(adsourceFile:75)
+04-10 10:28:41.115  8875  8904 W System.err: 	at com.letv.adsdk.ab.run(adsourceFile:488)
+04-10 10:28:41.116  8875  8904 E DeviceInfoUtils: getUserAgent userAgent=Dalvik/2.1.0 (Linux; U; Android 5.0.1; Letv X3-55 Build/V2301RCN02C080342D04091T)
+04-10 10:28:41.118  8875  8904 E ArkJniClient: LETV_AD_SDK_LIBS_PATH:/data/data/com.stv.deskplatform/libs/libtvLeJianAdSDK.so
+04-10 10:28:41.118  8875  8904 E art     : dlopen("/data/data/com.stv.deskplatform/app_adlibs/libLetvAdSDK.so", RTLD_LAZY) failed: dlopen failed: library "/data/data/com.stv.deskplatform/app_adlibs/libLetvAdSDK.so" not found
+04-10 10:28:41.119  8875  8904 E ArkJniClient: Load  update library-/data/data/com.stv.deskplatform/app_adlibs/libLetvAdSDK.so throwable - dlopen failed: library "/data/data/com.stv.deskplatform/app_adlibs/libLetvAdSDK.so" not found
+04-10 10:28:41.124  8875  8904 E ArkJniClient: loadLibrary - tvLeJianAdSDK successfully
+04-10 10:28:41.124  8875  8904 D ARK     : ArkJniClient::arkAdInit() entry | sdkVersion - aps_mm_03_3.1.8.2
+04-10 10:28:41.125  8875  8904 D ARK     : jniUtilsInitClass succeed
+04-10 10:28:41.126  8875  8904 D ARK     : arkAdInit::  appPath - /data/data/com.stv.deskplatform/app_ark_storage/ appType - 37 deviceType - 3
+04-10 10:28:41.126  8875  8904 D ARK     : ArkUtil::setNetworkStatus() lastStatus is - -1; set status to - 1
+04-10 10:28:41.126  8875  8904 D ARK     : ArkUtil::setNetworkStatus() network connected
+04-10 10:28:41.126  8875  8904 D ARK     : AdDispatcher::initConf entry
+04-10 10:28:41.126  8875  8904 D ARK     : AdDispatcher::initConf DeviceUtils::getAppPath() :/data/data/com.stv.deskplatform/app_ark_storage/
+04-10 10:28:41.126  8875  8904 D ARK     : AdDispatcher::initConf localfullpath :/data/data/com.stv.deskplatform/app_ark_storage/arkapsconf.json
+04-10 10:28:41.126  8875  8904 D ARK     : ArkUtil::initLocalConf entry
+04-10 10:28:41.127  8875  8904 D ARK     : ArkUtil::initLocalConf parse format OK
+04-10 10:28:41.127  8875  8904 D ARK     : ArkUtil::initLocalConf init successfully
+04-10 10:28:41.127  8875  8904 D ARK     : ArkUtil::initLocalConf init - OK content - {  "VERSION": "2",  "APPTYPE": "37",  "APPNAME": "tvLeJian",  "ARK_KEYS": "np,1265;",  "libName": "tvLeJianAdSDK",  "exposeHandle": "1",  "clickHandle": "0"}
+04-10 10:28:41.127  8875  8904 D ARK     : AdDispatcher::initConf OK from localConf =:/data/data/com.stv.deskplatform/app_ark_storage/arkapsconf.json
+04-10 10:28:41.127  8875  8904 D ARK     : arkAdInit::  MAC       - C80E77F9802B
+04-10 10:28:41.127  8875  8904 D ARK     : arkAdInit::  MAC(MD5)  - 133a10795fa65b2d5e1ba953ad5931e1
+04-10 10:28:41.127  8875  8904 D ARK     : arkAdInit::  ANDROIDID      - 9119d18c6f2adb60
+04-10 10:28:41.127  8875  8904 D ARK     : arkAdInit::  ANDROIDID(MD5) - 538f22c808cfa35552c6f4b52fddede1
+04-10 10:28:41.128  8875  8907 D ARK     : ArkTrackUtil::retrieveTrack() TRAF sleep=>begin 60 second(s) 2019-04-10 10:28:41
+04-10 10:28:41.128  8875  8904 D ARK     : arkAdInit::  IMEI      - 
+04-10 10:28:41.128  8875  8904 D ARK     : arkAdInit::  IMEI(MD5) - 
+04-10 10:28:41.128  8875  8908 D ARK     : ArkOfflineUtil::retrieveOfflineReport() @@@ REPORT sleep=>begin 10 second(s) 2019-04-10 10:28:41
+04-10 10:28:41.129  8875  8904 D ARK     : arkAdInit::  pcode -  isDebug - 1 isTest - 0 cpuSupportVType - 
+04-10 10:28:41.130  8875  8904 D ARK     : TVDeviceFactory::getProxy- parse failed :/sdcard/Letv/ark_debug.conf
+04-10 10:28:41.130  8875  8904 D ARK     : TVDeviceFactory::getUA - :Dalvik/2.1.0 (Linux; U; Android 5.0.1; Letv X3-55 Build/V2301RCN02C080342D04091T)-android/5.0.1 (Letv;Letv X3-55) tvLeJian/2100/aps_mm_03_3.1.8.2/ads_40
+04-10 10:28:41.131  8875  8906 D ARK     : ArkTrackUtil::retrieveTrack() TRACK sleep=>begin 10 second(s) 2019-04-10 10:28:41
+04-10 10:28:41.131  8875  8904 D ARK     : ArkEnvInit::init() DONE SUCCESSFULLY
+04-10 10:28:41.131  8875  8904 D ARK     : AdPlayUtil::retrieveAdPlayRecord() open failed 
+04-10 10:28:41.139  8875  8904 D ARK     : AdReqUtil::adaptorCodeRate() empty 
+04-10 10:28:41.139  8875  8904 D ARK     : AdReqUtil::adaptorCodeRate() conf is - :0:0;350:1;1:1;800:2;2:2;1300:3;3:3;720p:4;4:4;5:1080p3m:5;1080p6m:5;5:5;2k:6;6:6;4k:7;7:7
+04-10 10:28:41.141  8875  8904 D ARK     : MMA::getSdkConfigFromLocal parseSdkConfig successfully.
+04-10 10:28:41.141  8875  8904 D ARK     : MMA::initSdkConfig getSdkConfigFromLocal true
+04-10 10:28:41.141  8447  8447 I DownloadHelper: Download onServiceConnected
+04-10 10:28:41.142  8875  8904 E AdSDKManager: iniAd curArkVersion=2  assetsArkVersion=2
+04-10 10:28:41.142  8447  8447 I DownloadHelper: start download param = DownloadParam :  url = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527 fileName = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk md5 = 58b930e6ccc85aeeee1ea73e1f20938d downloadedSize = 0 md5Check = true
+04-10 10:28:41.147  8875  8875 D StvDownload: DownloadManager -- DownloadManager init
+04-10 10:28:41.159  8875  8904 E AdSDKManager: initAd curMmaVersion=15 assetsMMaVersion=8 isClientUpgrade=false
+04-10 10:28:41.174  8875  8904 E AdSDKManager: initAd curArkVersion=2  assetsArkVersion=2  curMmaVersion=8 assetsMMaVersion=8
+04-10 10:28:41.176  8875  8904 E ZHN MAC : wifi manager: b8:fc:9a:20:44:7c
+04-10 10:28:41.176  8875  8904 E ZHN MAC : return: b8:fc:9a:20:44:7c
+04-10 10:28:41.178  8875  8904 E AdSDKManager: AD_CONFIG_URL:http://ark.cp21.ott.cibntv.net/apsconf/?
+04-10 10:28:41.181  8875  8904 E AdConfigGetTask: start  to delay:5000  request adconfig
+04-10 10:28:41.182  8875  8904 E AdSDKManager: init updateParameters=os:3,cpu:00,apptype:37,SOV:2,mma:8,osvs:5.0.1,term:Letv X3-55,pv:android_2100,aps:40,cuid:45d0c18076e710e151a16894e335b2ee,mac:b8:fc:9a:20:44:7c,broadcasttype:2,UiVersion:5.0,UiType:cibn,
+04-10 10:28:41.182  8875  8904 E ads     : remains files:0
+04-10 10:28:41.185  8875  8904 D ARK     : ArkUtil::setNetworkStatus() lastStatus is - 1; set status to - 1
+04-10 10:28:41.185  8875  8904 I AdLoader: [com.stv.deskplatform][1.3.1904.012] : initAdSDKManager message what=103
+04-10 10:28:41.186  8875  8875 I StvDownload: DownloadManager -- startDownload download param = DownloadParam :  url = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527 fileName = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk md5 = 58b930e6ccc85aeeee1ea73e1f20938d downloadedSize = 0 md5Check = true
+04-10 10:28:41.188  8875  8904 I AdLoader: [com.stv.deskplatform][1.3.1904.012] : initAdSDKManager init complete
+04-10 10:28:41.191  8875  8904 E AdSDKManager: initAd finish
+04-10 10:28:41.191  8875  8894 E AdSDKManagerProxy:  getInstance hasInitJar=true  context=android.app.ContextImpl@469a85f
+04-10 10:28:41.192  8875  8894 E ReflectionUtils: callADObjectMethod class=class com.letv.adsdk.AdSDKManager   methodName=getAD
+04-10 10:28:41.192  8875  8894 E AdSDKManager: getAD hasInited=true
+04-10 10:28:41.192  8875  8894 E AdSDKManager: getAD parameters=token:null,adZoneType:30,uuid:45d0c18076e710e151a16894e335b2ee_1554863321191,adInfoType:17,
+04-10 10:28:41.193  8875  8894 E AdSDKManager: getAD11 adZoneTypeStr:30
+04-10 10:28:41.194  8875  8894 E AdSDKManager: getAD ctStr:0,arkKey:np
+04-10 10:28:41.195  8875  8894 E AdSDKManager:  ad splashCacheAd=true
+04-10 10:28:41.197  8875  8894 E ads     : adSdkReq ArkJniApi
+04-10 10:28:41.197  8875  8894 D ARK     : ArkJniClient::arkAdReq() entry
+04-10 10:28:41.198  8875  8894 D ARK     : ArkJniClient::arkAdReq vastPath - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq date - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq oiid - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq adPlayTime - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq defaultAD - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq vbrand - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq slice - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq ad_duration - :
+04-10 10:28:41.199  8875  8894 D ARK     : ArkJniClient::arkAdReq cp - :
+04-10 10:28:41.200  8875  8894 D ARK     : ArkJniClient::arkAdReq pid - :
+04-10 10:28:41.200  8875  8894 D ARK     : ArkJniClient::arkAdReq adReqType - 0
+04-10 10:28:41.201  8875  8894 D ARK     : ArkUtil::getArk  ark_key:np value:1265
+04-10 10:28:41.201  8875  8894 D ARK     : AdDispatcher::adReq() - AdZoneType - NinePatch
+04-10 10:28:41.201  8875  8894 D ARK     : ARKString::isCombine tem = 1 original = 17
+04-10 10:28:41.201  8875  8894 D ARK     : ###################
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::adReq 广告开始请求 vastTag 1
+04-10 10:28:41.201  8875  8894 D ARK     : 
+04-10 10:28:41.201  8875  8894 D ARK     : adReqType=0,adZoneType=30,isFromQRCode=0,isDisableAd=0,isDisableOfflineAd=0,isVIP=0,isBaiduVIP=0,isFromPush=0,isHotVideo=0,isTryLook=0,isVipMovie=0,is24HourBan=0,isPortrait=0,isOfflineAd=0,_isPanorama=0,_isPayPid=0,_isPayVid=0,_isDlna=0,_isRequestCacheAd=01,ark_key:np,ct:0,uuid:45d0c18076e710e151a16894e335b2ee_1554863321191,vlen:6000,vid=,cid=,pid=,mmsid=
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::vastFromNetworkMime() entry
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::acReportIA() cuePointType - begin 
+04-10 10:28:41.201  8875  8894 D ARK     : ReportingInfo::ReportingInfo() constructor
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::genAcReportingInfo before arkId  				- :1265
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::genAcReportingInfo before reportingInfo->_arkId  - :
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::genAcReportingInfo after  arkId  				- :1265
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::genAcReportingInfo after  reportingInfo->_arkId  - :1265
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::acReportIA() cuePointType - :0
+04-10 10:28:41.201  8875  8894 D ARK     : _adReqParam->isPanorama() :false
+04-10 10:28:41.201  8875  8894 D ARK     : AdService::acReportIA() @@@ isNeedAcReportingIA # false # _cuePointType=:0
+04-10 10:28:41.201  8875  8894 D ARK     : ReportingInfo::ReportingInfo() destructor
+04-10 10:28:41.201  8875  8894 D ARK     : ArkUtil::getArk  ark_key:np value:1265
+04-10 10:28:41.202  8875  8894 D ARK     : AdService::getAppNewVersion- :tvLeJian
+04-10 10:28:41.202  8875  8894 D ARK     : AdService::getAppNewVersion- :TV_2100_tvLeJian_2
+04-10 10:28:41.202  8875  8894 D ARK     : AdReqUtil::getAdReqUrl() reqURL  - :http://ark.cp21.ott.cibntv.net/s?ark=1265&ct=0&n=0&res=json&cuid=45d0c18076e710e151a16894e335b2ee&vvid=45d0c18076e710e151a16894e335b2ee_1554863321191&v=TV_2_tvLeJian_2100&did=9119d18c6f2adb60&offline=0&t=1554863321201&dev=S255U&nv=TV_2100_tvLeJian_2&mac=C80E77F9802B
+04-10 10:28:41.202  8875  8894 D ARK     : ARKNetworkUtil::baseGet() url - http://ark.cp21.ott.cibntv.net/s?ark=1265&ct=0&n=0&res=json&cuid=45d0c18076e710e151a16894e335b2ee&vvid=45d0c18076e710e151a16894e335b2ee_1554863321191&v=TV_2_tvLeJian_2100&did=9119d18c6f2adb60&offline=0&t=1554863321201&dev=S255U&nv=TV_2100_tvLeJian_2&mac=C80E77F9802B&ry=0
+04-10 10:28:41.204  8875  8875 I StvDownload: DownloadManager -- download record does't exist and insert new record = DownloadRecord :  did = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527 fileName = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk md5 = null md5Check = null status = READY totalSize = 0 downloadedSize = 0 downloadedPath =  downloadedTime = 0
+04-10 10:28:41.233  8875  8875 I StvDownload: DownloadManager -- startDownloadInternal == http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527
+04-10 10:28:41.234  8875  8894 D ARK     : AdService::getVastFromNetwork() retcode - 200 result - 0
+04-10 10:28:41.234  8875  8894 D ARK     : ArkNetworkParam::~ArkNetworkParam() delete network data 
+04-10 10:28:41.234  8875  8894 D ARK     : AdService::getVastFromNetwork: 错误类型=
+04-10 10:28:41.234  8875  8894 D ARK     : AdService::vastFromNetworkMime() vastData - :{"vast":{"area_id":"","code":"","version":"","stime":0,"ark":"1265","origin_ark":"1265","ip":"","ipaddr":"","server":"","cuid":"","uuid":"","member":0,"Ad":[],"RequestForSsp":{"cdata":""}}}
+04-10 10:28:41.234  8875  8894 D ARK     : ReportingInfo::ReportingInfo() constructor
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::genAcReportingInfo before arkId  				- :1265
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::genAcReportingInfo before reportingInfo->_arkId  - :
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::genAcReportingInfo after  arkId  				- :1265
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::genAcReportingInfo after  reportingInfo->_arkId  - :1265
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::acReportVastParse() vast parse - OK
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::acReportVastParse() 没有取到策略, CuePointType:0
+04-10 10:28:41.235  8875  8894 D ARK     : ReportingInfo::ReportingInfo() destructor
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::generalResult() reqLog - :请求地址:###  http://ark.cp21.ott.cibntv.net/s?ark=1265&ct=0&n=0&res=json&cuid=45d0c18076e710e151a16894e335b2ee&vvid=45d0c18076e710e151a16894e335b2ee_1554863321191&v=TV_2_tvLeJian_2100&did=9119d18c6f2adb60&offline=0&t=1554863321201&dev=S255U&nv=TV_2100_tvLeJian_2&mac=C80E77F9802B  AC上报:###  
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::markToDestroy() - entry
+04-10 10:28:41.235  8875  8894 D ARK     : AdService::markToDestroy() - entry
+04-10 10:28:41.235  8875  8894 D ARK     : ARKString::isCombine tem = 2 original = 17
+04-10 10:28:41.235  8875  8894 D ARK     : ARKString::isCombine tem = 4 original = 17
+04-10 10:28:41.235  8875  8894 D ARK     : ARKString::isCombine tem = 8 original = 17
+04-10 10:28:41.235  8875  8894 D ARK     : ARKString::isCombine tem = 16 original = 17
+04-10 10:28:41.235  8875  8894 D ARK     : AdDispatcher::adReq() - _acReportUrl - :
+04-10 10:28:41.235  8875  8894 D ARK     : ArkJniClient::getElementsMime - entry
+04-10 10:28:41.236  8875  8894 D ARK     : ArkJniClient::getElementsMime - return 0 adElement(s)
+04-10 10:28:41.236  8875  8894 D ARK     : ArkJniClient::getAdInfoOut() entry
+04-10 10:28:41.237  8875  8894 D ARK     : ArkJniClient::getAdInfoOut() end
+04-10 10:28:41.237  8875  8894 D ARK     : AdInfoOut::~AdInfoOut() delete element 
+04-10 10:28:41.237  8875  8894 I AdLoader: [com.stv.deskplatform][1.3.1904.012] : no Ad. configured.
+04-10 10:28:41.239  8875  8917 I StvDownload: DownloadManager -- DownloadThread start run
+04-10 10:28:41.242  8875  8917 I StvDownload: DownloadManager -- DownloadThread writeToFile
+04-10 10:28:41.265  8875  8875 I StvDownload: DownloadService -- start download download param = DownloadParam :  url = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527 fileName = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk md5 = 58b930e6ccc85aeeee1ea73e1f20938d downloadedSize = 0 md5Check = true
+04-10 10:28:41.276  8875  8875 I DynamicConfigManager: fetch config success, configInfo={"supportApp":{"cn.cibntv.ott":{"icon":"http://i3.letvimg.com/lc02_iptv/201603/14/15/53/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http://i2.letvimg.com/lc04_iptv/201701/16/16/57/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http://i3.letvimg.com/lc07_iscms/201710/20/14/55/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http://i0.letvimg.com/lc02_iscms/201802/01/18/40/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http://i3.letvimg.com/lc06_img/201804/03/21/03/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http://i3.letvimg.com/lc03_iptv/201804/28/16/33/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http://i1.letvimg.com/lc03_iscms/201710/20/15/17/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http://img.cloud.ottcn.com/n3images/img/leshi_logo.png","isLocal":false,"name":"央视影音"}},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}}}; conditionInfo={broadcastId=2, area=CN, terminalApplication=tv_deskplatform, appVersion=1.3.1904}
+04-10 10:28:41.277  8875  8875 I DynamicConfigManager: config condition judge success
+04-10 10:28:41.277  8875  8875 I DynamicConfigManager: notifyConfigData content={"supportApp":{"cn.cibntv.ott":{"icon":"http://i3.letvimg.com/lc02_iptv/201603/14/15/53/temp3b1f91e5-7450-4105-baf2-6c621666d60c256.png","isLocal":false,"name":"CIBN高清影视"},"cn.com.wasu.main":{"icon":"http://i2.letvimg.com/lc04_iptv/201701/16/16/57/tmpea6c06ff-7f0d-4712-ba03-d523486061eb256.png","isLocal":false,"name":"华数TV"},"com.hunantv.license":{"icon":"http://i3.letvimg.com/lc07_iscms/201710/20/14/55/1a6e0cc4443346b9bb3339cd5cd86b61.png","isLocal":false,"name":"芒果TV"},"com.ktcp.tvvideo":{"icon":"http://i0.letvimg.com/lc02_iscms/201802/01/18/40/44389ac85f6146c99d43ba71693788dd.png","isLocal":false,"name":"云视听极光"},"com.le.lepay.tv":{"icon":"http://i3.letvimg.com/lc06_img/201804/03/21/03/WechatIMG9.png","isLocal":false,"name":"乐购"},"com.letv.leso":{"icon":"http://i3.letvimg.com/lc03_iptv/201804/28/16/33/res_drawable-hdpi-v4_ic_desk_app_leso_1524904407908.png","isLocal":false,"name":"万象搜索"},"com.letv.tv":{"icon":"http://i1.letvimg.com/lc03_iscms/201710/20/15/17/7a33bc0322294a06b26437cf92409806.png","isLocal":false,"name":"超级影视"},"com.newtv.cboxtv":{"icon":"http://img.cloud.ottcn.com/n3images/img/leshi_logo.png","isLocal":false,"name":"央视影音"}},"tvModelData":{"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}}}
+04-10 10:28:41.278  8875  8875 I StvDownload: DownloadService --  onStatusChanged stat = STARTED downloaded file name = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk
+04-10 10:28:41.281  8875  8920 I DynamicConfigManager: notifyConfigSyncCompleted code=1
+04-10 10:28:41.284  8875  8875 I Launcher[1.3.1904.012]: [com.stv.deskplatform:download] onUpdate = 1
+04-10 10:28:41.287  8875  8920 I DynamicConfigManager: compare changed use time = 6
+04-10 10:28:41.287  8875  8920 I DynamicConfigManager: saveToCache
+04-10 10:28:41.288  8875  8920 D SharedPreferencesManager: putString() : name = le_dynamic_config : key = le_dynamic_config_version : defValue = 1.3.1904.012
+04-10 10:28:41.293  8875  8875 D Launcher[1.3.1904.012]: [com.stv.deskplatform:download] brushDatabase begin
+04-10 10:28:41.294  8875  8875 D Launcher[1.3.1904.012]: [com.stv.deskplatform:download] DynamicConfig -- wait 1 ms for method brushDatabase
+04-10 10:28:41.297  8875  8875 I DynamicConfig: [com.stv.deskplatform][1.3.1904.012] : getTVModelData()-getTVModelData={"others":{"appShowList":"com.stv.signalsourcemanager,com.letv.android.tv.letvlive,com.stv.deskplatform","configVersion":"1.1.73","deskForceList":"com.stv.local.teleplay","deskLockList":"signal,com.letv.android.tv.letvlive,com.stv.local.video","desktopCrashReportPercent":1000,"desktopShow":{"com.stv.local.app":{"tabName":"应用","tag":{"viewName":[{"content":"应用","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.cibn":{"tabName":"小C精选","tag":{"viewName":[{"content":"小C精选","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.commercial":{"tabName":"品牌","tag":{"viewName":[{"content":"品牌","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.kids":{"tabName":"儿童","tag":{"viewName":[{"content":"儿童","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.mgtv":{"tabName":"芒果热播","tag":{"viewName":[{"content":"芒果热播","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.shopping":{"tabName":"购物","tag":{"viewName":[{"content":"购物","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.tencent":{"tabName":"云视听","tag":{"viewName":[{"content":"云视听","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.video":{"tabName":"找视频","tag":{"viewName":[{"content":"找视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}},"com.stv.local.wasu":{"tabName":"华数视频","tag":{"viewName":[{"content":"华数视频","lang":"zh-cn"},{"content":"Homepage","lang":"en"}]}}},"desktopShowOrder":"com.stv.local.video,com.stv.local.tencent,com.stv.local.teleplay,com.stv.local.template,com.stv.local.commercial,com.stv.local.kids,com.stv.local.shopping,com.stv.plugin.courseshop,com.stv.local.app,com.stv.local.mgtv,com.stv.local.wasu,com.stv.local.cibn","isCheckUpgrade":true,"isRebootNow":true,"isShowChildMode":true,"isShowDefaultDesktop":false,"isShowPromotionMsg":true,"launcherCrashReportPercent":100}}
+04-10 10:28:41.299  8875  8875 I Launcher[1.3.1904.012]: [com.stv.deskplatform:download] DeviceUtil -- modelType: Letv X3-55 >> false
+04-10 10:28:41.299  8875  8875 I Launcher[1.3.1904.012]: [com.stv.deskplatform:download] DeviceUtil -- modelType: Letv X3-55 >> false
+04-10 10:28:41.299  8875  8875 I Launcher[1.3.1904.012]: [com.stv.deskplatform:download] DeviceUtil -- modelType: Letv X3-55 >> false
+04-10 10:28:41.300  8875  8875 I DynamicConfig: [com.stv.deskplatform][1.3.1904.012] : isConfigChange(false)-configVersion=1.1.73
+04-10 10:28:41.302  8875  8875 I ConfigManager: [com.stv.deskplatform][1.3.1904.012] : updateParamsFromWhiteList()-size=0
+04-10 10:28:41.302  8875  8875 I ConfigManager: [com.stv.deskplatform][1.3.1904.012] : DynamicConfigUtils-onConfigSyncCompleted()-success-i=1
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: [com.stv.deskplatform][1.3.1904.012] : Config-all={
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.appid":"com.stv.deskplatform",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.bschannel":"cibn",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.buildtime":"2019-04-04 10:26:08.669",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.businessid":"",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.client":"android",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.terminalapplication":"tv_deskplatform",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.terminalbrand":"media",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.versioncode":"2019040410",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.versionname":"1.3.1904.012",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"app.versionproduct":"1.3.1904",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.ishttpdebug":true,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.isneedhttpcache":false,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.isneediplooping":true,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.issupportdlna":false,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.issupportepisode":false,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.issupporthelmet":false,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.issupportstatistic":true,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"business.issupportviewmap":false,
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.dynamicconfigdomain":"https://api-oeco-itv.cp21.ott.cibntv.net/",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.dynamicdomain":"https://api-oeco-itv.cp21.ott.cibntv.net/",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.dynamicloopingips":"https://36.110.196.249/;https://123.125.38.247/;https://123.59.177.208/",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.g3downloaddomain":"",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.g3downloadips":"",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.otherreportdomain":"http://rec.cp21.ott.cibntv.net",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.reportdomain":"http://dc.cp21.ott.cibntv.net/",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.staticdomain":"https://api-oeco-itv.cp21.ott.cibntv.net/",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"common.staticloopingips":"https://36.110.196.249/;https://123.125.38.247/;https://123.59.177.208/",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"device.launcher.frameversion":"",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"device.launcher.sdkversion":"1.0.4",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"device.system.broadcastid":"2",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"device.system.mac":"C80E77F9802B",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"device.system.salearea":"CN",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"device.system.terminalseries":"Letv X3-55",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"modifieddate":"2017-04-10",
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: 	"version":"1"
+04-10 10:28:41.303  8875  8875 I BaseConfigManager: }
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: [com.stv.deskplatform][1.3.1904.012] : Config-custom={
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.brand.video":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.brand.video",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-03-08 14:05:10.368",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"commercial_tvdesk",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"media",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019030814",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"1.0.2.000",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"1.0.2"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.cibn.video":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.cibn.video",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-03-19 20:23:29.902",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"cibn_tvdesk",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"media",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019031920",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"1.3.1.000",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"1.3.1"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.kids":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.kids",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-04-04 10:26:09.969",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"lekids_launcher",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"letv",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019040410",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"3.0.0.016",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"3.0.0"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.mgtv.video":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.mgtv.video",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-03-19 20:10:06.533",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"tv_desktop_imgo",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"media",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019031920",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"1.0.0.003",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"1.0.0"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.movie":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.movie",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-04-04 10:26:10.215",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"tv_desktop_movie",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"letv",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019040410",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"1.0.0.021",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"1.0.0"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.shopping":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.shopping",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-04-04 10:26:09.817",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"tv_desktop_shopping",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"letv",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019040410",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"5.0.0.012",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"5.0.0"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.teleplay":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.teleplay",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-04-04 10:26:09.584",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"tv_desktop_teleplay",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"letv",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019040410",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"1.0.0.064",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"1.0.0"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.tencent":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.tencent",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-04-04 10:26:10.079",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"tencent_desk",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"media",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019040410",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"1.0.1.007",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"1.0.1"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.video":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.video",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-04-04 10:26:09.236",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"newVideo",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"media",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019040410",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"2.1.0.021",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"2.1.0"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	},
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	"others.com.stv.plugin.wasu.video":{
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"appId":"com.stv.plugin.wasu.video",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"bsChannel":"cibn",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"buildTime":"2019-03-19 20:14:10.994",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"businessId":"",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"client":"android",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalApplication":"tv_desktop_wasu",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"terminalBrand":"media",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionCode":"2019031920",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionName":"1.3.1.000",
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 		"versionProduct":"1.3.1"
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: 	}
+04-10 10:28:41.305  8875  8875 I BaseConfigManager: }
+04-10 10:28:41.384  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:41.405  8875  8917 I StvDownload: DownloadManager -- DownloadThread write destination file abs path = /storage/emulated/0/letv/.le_download/com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk
+04-10 10:28:41.436  8875  8917 I StvDownload: DownloadManager -- start write input to file
+04-10 10:28:41.583  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:41.984  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 120 mv (0x13)[m
+04-10 10:28:42.068  8447  8447 I CommonFrescoView: [com.stv.deskplatform][1.3.1904.012] : addView(ControllableEcoImageView)-sdkversion=1.0.4
+04-10 10:28:42.085  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:42.686  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:42.784  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:43.484  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:43.623  1723  1854 E WifiStateMachine: handleMessage: E msg.what=131155
+04-10 10:28:43.623  1723  1854 E WifiStateMachine: processMsg: ConnectedState
+04-10 10:28:43.623  1723  1854 E WifiStateMachine: processMsg: L2ConnectedState
+04-10 10:28:43.623  1723  1854 D WifiNative-wlan0: doString: [SIGNAL_POLL]
+04-10 10:28:43.623  2465  2465 I wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+04-10 10:28:43.628  1723  1854 E WifiStateMachine: handleMessage: X
+04-10 10:28:43.684  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:44.152  8447  8447 E HeaderBlockHolder: [com.stv.deskplatform][1.3.1904.012] : doExposureStatistic = 2
+04-10 10:28:44.152  8447  8447 E HeaderBlockHolder: [com.stv.deskplatform][1.3.1904.012] : mIsGainShow = true, com.stv.plugin.video.view.home.HomeRecyclerView{2c7ffa76 V.E..... ........ 0,192-1920,1080 #7f0e0338 app:id/home_recycler_view}, com.stv.plugin.video.view.home.block.header.HeaderFocusProcessLayout{16ed31cc VFE...C. ........ 1710,0-2565,479 #7f0e036d app:id/focus}, true
+04-10 10:28:44.152  8447  8447 I SdkReporter: [com.stv.deskplatform][1.3.1904.012] : type: expose, widget id: 102, model: ReportModel{mWidgetId='102'} {pos=1_3, app_version=2.1.0, datatype=2, contentFrom=1, src=1, sub_src=letv, letv_uid=-, albumId=10017681, content=超影专辑：捉妖记, type=1}
+04-10 10:28:44.183  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:44.229  1220  1220 I tvos    : [CEC] msHDMICecPollingFSM and LINE:3959, res:4
+04-10 10:28:44.433  1220  1220 I tvos    : [CEC] msHDMICecPollingFSM and LINE:3959, res:4
+04-10 10:28:44.484  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:44.583  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:44.637  1220  1220 I tvos    : [CEC] msHDMICecPollingFSM and LINE:3959, res:4
+04-10 10:28:44.842  1220  1220 I tvos    : [CEC] msHDMICecPollingFSM and LINE:3959, res:4
+04-10 10:28:44.884  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:44.984  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:45.046  1220  1220 I tvos    : [CEC] msHDMICecPollingFSM and LINE:3959, res:4
+04-10 10:28:45.046  1220  1220 I tvos    : [CEC] msHDMICecPollingFSM, 4043, 2, res:4
+04-10 10:28:45.046  1220  1220 I tvos    : [CEC] msHDMICecPollingFSM, 4048 set-speaker-out
+04-10 10:28:45.184  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:45.684  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:45.983  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:46.084  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:46.181  8875  8875 E AdConfigGetTask: startGetAdconfig
+04-10 10:28:46.182  8875  8875 E DeviceInfoUtils: isWifiConnected resultWifi=true
+04-10 10:28:46.188  8875  8928 E AdConfigGetTask: doInBackground url=http://ark.cp21.ott.cibntv.net/apsconf/?os=3&cpu=00&apptype=37&SOV=2&mma=8&osvs=5.0.1&term=Letv+X3-55&pv=android_2100&aps=40&cuid=45d0c18076e710e151a16894e335b2ee&mac=b8%3Afc%3A9a%3A20%3A44%3A7c&broadcasttype=2&UiVersion=5.0&UiType=cibn
+04-10 10:28:46.191  8875  8928 E HttpUtils: getWebDataStream path=http://ark.cp21.ott.cibntv.net/apsconf/?os=3&cpu=00&apptype=37&SOV=2&mma=8&osvs=5.0.1&term=Letv+X3-55&pv=android_2100&aps=40&cuid=45d0c18076e710e151a16894e335b2ee&mac=b8%3Afc%3A9a%3A20%3A44%3A7c&broadcasttype=2&UiVersion=5.0&UiType=cibn
+04-10 10:28:46.192  8875  8928 E HttpUtils: getWebDataStream11 path=http://ark.cp21.ott.cibntv.net/apsconf/?os=3&cpu=00&apptype=37&SOV=2&mma=8&osvs=5.0.1&term=Letv+X3-55&pv=android_2100&aps=40&cuid=45d0c18076e710e151a16894e335b2ee&mac=b8%3Afc%3A9a%3A20%3A44%3A7c&broadcasttype=2&UiVersion=5.0&UiType=cibn
+04-10 10:28:46.245  8875  8928 E HttpUtils: getWebDataStream2 responseCode=200
+04-10 10:28:46.278  8875  8875 E AdConfigGetTask: version 8获取广告配置result = {"app":{},"mma":{"VERSION":"15","CONTENT":"<?xml version=\"1.0\" encoding=\"utf-8\"?><config xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"SDKSchema.xsd\" version=\"15\" plat=\"TV\"><offlineCache><length>0</length><queueExpirationSecs>3600</queueExpirationSecs><timeout>15</timeout><retryLimit>3</retryLimit><ark_timeout>5</ark_timeout><ark_retryLimit>1</ark_retryLimit><ark_offlinead_expiration>259200</ark_offlinead_expiration><offline_Wifi_Timeout>2</offline_Wifi_Timeout><offline_Wifi_RetryLimit>1</offline_Wifi_RetryLimit></offlineCache><ark><keys><![CDATA[s,760;clock,739;c_l,837;c,551;c_1,552;c_2,553;c_3,554;c_4,555;c_5,556;c_9,557;c_11,558;c_14,559;c_16,560;c_20,561;c_22,562;c_23,563;c_34,564;c_1021,840;]]></keys><xkeys><![CDATA[s,759;clock,740;c_l,836;c,565;c_1,566;c_2,567;c_3,568;c_4,569;c_5,570;c_9,571;c_11,572;c_14,573;c_16,574;c_20,575;c_22,576;c_23,577;c_34,578;c_1021,841;]]></xkeys><vTarget><![CDATA[0;2;6;7]]></vTarget><bitrate><![CDATA[1:350;2:800;3:1300;4:720p;5:1080p3m,1080p6m;6:2k;7:4k]]></bitrate><adconfig><![CDATA[a:1;b:1;c:1;d:1;e:1;f:1;g:0;h:1;k:1;m:1;n:1;p:0;q:1]]></adconfig><adipdx><interval>3600</interval><url><![CDATA[letv.axp.admaster.com.cn/madv?tid=1066&mediauid=[MEDIACOOKIE]&idfa=[IDFA]&imei=[IMEI]&adrid=[Android]&mac=[MAC]&udid=[openudid]]]></url></adipdx><preplaytimeout><online>8</online><offlinewifi>2</offlinewifi><offlineother>2</offlineother><reachmax>2</reachmax><thirdparty>2</thirdparty><miaozhen>2</miaozhen></preplaytimeout><coderate><![CDATA[0:0;350:1;1:1;800:2;2:2;1300:3;3:3;720p:4;4:4;5:1080p3m:5;1080p6m:5;5:5;2k:6;6:6;4k:7;7:7]]></coderate></ark><companies><company><name>admaster</name><dsp>6</dsp><domain><url>admaster.com.cn</url><url>lndata.com</url></domain><switch><isTrackLocation>false</isTrackLocation><offlineCacheExpiration>86400</offlineCacheExpiration><encrypt><MAC>md5</MAC><IDA>md5</IDA><ANDROIDID>raw</ANDROIDID></encrypt></switch><config><arguments><argument><key>OS</key><value>0a</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>OS</key><value>[OS]</value><urlEncode>true</urlEncode><isAttached>false</isAttached><isRequired>true</isRequired></argument><argument><key>TS</key><value>t</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>MAC</key><value>n</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>MAC</key><value>[MAC]</value><urlEncode>true</urlEncode><isAttached>false</isAttached><isRequired>true</isRequired></argument><argument><key>ANDROIDID</key><value>0d</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>ANDROIDID</key><value>[Android]</value><urlEncode>true</urlEncode><isAttached>false</isAttached><isRequired>true</isRequired></argument><argument><key>WIFI</key><value>w</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>AKEY</key><value>x</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>ANAME</key><value>y</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>SCWH</key><value>0f</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>ODIN</key><value>0g</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>TERM</key><value>r</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>OSVS</key><value>q</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>true</isRequired></argument><argument><key>LBS</key><value>l</value><urlEncode>true</urlEncode><isAttached>true</isAttached><isRequired>t
+04-10 10:28:46.282  8875  8875 E AdConfigGetTask: onPostExecute adUpgradeBean=AdUpgradeBean{url='', apkVersion='0', soVersion='0', md5=''}  curAdVersion=40
+04-10 10:28:46.287  8875  8875 E AdConfigGetTask: onPostExecute mma={"VERSION":"15","CONTENT":"<?xml version=\"1.0\" encoding=\"utf-8\"?><config xmlns:xsi=\"http:\/\/www.w3.org\/2001\/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"SDKSchema.xsd\" version=\"15\" plat=\"TV\"><offlineCache><length>0<\/length><queueExpirationSecs>3600<\/queueExpirationSecs><timeout>15<\/timeout><retryLimit>3<\/retryLimit><ark_timeout>5<\/ark_timeout><ark_retryLimit>1<\/ark_retryLimit><ark_offlinead_expiration>259200<\/ark_offlinead_expiration><offline_Wifi_Timeout>2<\/offline_Wifi_Timeout><offline_Wifi_RetryLimit>1<\/offline_Wifi_RetryLimit><\/offlineCache><ark><keys><![CDATA[s,760;clock,739;c_l,837;c,551;c_1,552;c_2,553;c_3,554;c_4,555;c_5,556;c_9,557;c_11,558;c_14,559;c_16,560;c_20,561;c_22,562;c_23,563;c_34,564;c_1021,840;]]><\/keys><xkeys><![CDATA[s,759;clock,740;c_l,836;c,565;c_1,566;c_2,567;c_3,568;c_4,569;c_5,570;c_9,571;c_11,572;c_14,573;c_16,574;c_20,575;c_22,576;c_23,577;c_34,578;c_1021,841;]]><\/xkeys><vTarget><![CDATA[0;2;6;7]]><\/vTarget><bitrate><![CDATA[1:350;2:800;3:1300;4:720p;5:1080p3m,1080p6m;6:2k;7:4k]]><\/bitrate><adconfig><![CDATA[a:1;b:1;c:1;d:1;e:1;f:1;g:0;h:1;k:1;m:1;n:1;p:0;q:1]]><\/adconfig><adipdx><interval>3600<\/interval><url><![CDATA[letv.axp.admaster.com.cn\/madv?tid=1066&mediauid=[MEDIACOOKIE]&idfa=[IDFA]&imei=[IMEI]&adrid=[Android]&mac=[MAC]&udid=[openudid]]]><\/url><\/adipdx><preplaytimeout><online>8<\/online><offlinewifi>2<\/offlinewifi><offlineother>2<\/offlineother><reachmax>2<\/reachmax><thirdparty>2<\/thirdparty><miaozhen>2<\/miaozhen><\/preplaytimeout><coderate><![CDATA[0:0;350:1;1:1;800:2;2:2;1300:3;3:3;720p:4;4:4;5:1080p3m:5;1080p6m:5;5:5;2k:6;6:6;4k:7;7:7]]><\/coderate><\/ark><companies><company><name>admaster<\/name><dsp>6<\/dsp><domain><url>admaster.com.cn<\/url><url>lndata.com<\/url><\/domain><switch><isTrackLocation>false<\/isTrackLocation><offlineCacheExpiration>86400<\/offlineCacheExpiration><encrypt><MAC>md5<\/MAC><IDA>md5<\/IDA><ANDROIDID>raw<\/ANDROIDID><\/encrypt><\/switch><config><arguments><argument><key>OS<\/key><value>0a<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>OS<\/key><value>[OS]<\/value><urlEncode>true<\/urlEncode><isAttached>false<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>TS<\/key><value>t<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>MAC<\/key><value>n<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>MAC<\/key><value>[MAC]<\/value><urlEncode>true<\/urlEncode><isAttached>false<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>ANDROIDID<\/key><value>0d<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>ANDROIDID<\/key><value>[Android]<\/value><urlEncode>true<\/urlEncode><isAttached>false<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>WIFI<\/key><value>w<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>AKEY<\/key><value>x<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>ANAME<\/key><value>y<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>SCWH<\/key><value>0f<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>ODIN<\/key><value>0g<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>TERM<\/key><value>r<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>OSVS<\/key><value>q<\/value><urlEncode>true<\/urlEncode><isAttached>true<\/isAttached><isRequired>true<\/isRequired><\/argument><argument><key>
+04-10 10:28:46.287  8875  8875 E AdConfigGetTask: onPostExecute mma.length=2
+04-10 10:28:46.288  8875  8875 E AdConfigGetTask: onPostExecute mmaVersion=15 curMmaVersion=8
+04-10 10:28:46.292  8875  8875 D ARK     : JNI::sendMMAConfig saveSdkConfig
+04-10 10:28:46.296  8875  8875 D ARK     : ArkUtil::initLocalConf parse format OK
+04-10 10:28:46.323  8875  8875 D ARK     : MMA::saveSdkConfig()  successfully. =:/data/data/com.stv.deskplatform/app_ark_storage/
+04-10 10:28:46.323  8875  8875 D ARK     : JNI::sendMMAConfig saveSdkConfig mmaConfig success
+04-10 10:28:46.345  8875  8875 E AdConfigGetTask: onPostExecute app={}
+04-10 10:28:46.345  8875  8875 E AdConfigGetTask: onPostExecute app.length=0
+04-10 10:28:46.383  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:46.484  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 120 mv (0x13)[m
+04-10 10:28:46.584  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:46.632  1723  1854 E WifiStateMachine: handleMessage: E msg.what=131155
+04-10 10:28:46.632  1723  1854 E WifiStateMachine: processMsg: ConnectedState
+04-10 10:28:46.633  1723  1854 E WifiStateMachine: processMsg: L2ConnectedState
+04-10 10:28:46.633  1723  1854 D WifiNative-wlan0: doString: [SIGNAL_POLL]
+04-10 10:28:46.633  2465  2465 I wpa_supplicant: wlan0: Control interface command 'SIGNAL_POLL'
+04-10 10:28:46.637  1723  1854 E WifiStateMachine: handleMessage: X
+04-10 10:28:46.783  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:46.885  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:46.930  8769  8815 D videochat: [videochatsdk][LeNet]:TaskHeartBeat(963)  hbElapse=10 status=logined elapse_last_heart_beat=10000 elapse_last_recv=9989 elapse_recv_heart_beat=11
+04-10 10:28:46.930  8769  8815 D videochat: [videochatsdk][LeNet]:LeNet.sendHeartBeat
+04-10 10:28:46.938  8769  8815 D videochat: [videochatsdk][LeNet]:LeNet.send  cmd=9 length=5
+04-10 10:28:46.951  8769  8769 D videochat: [videochatsdk][LeNet]:onBinaryMessage: payload.length=5
+04-10 10:28:46.955  8769  8769 D videochat: [videochatsdk][LeNet]:onBinaryMessage: MSG_HEARTBEAT_ECHO:com.letv.lenet.LeProto$HeartBeatEcho@31792629
+04-10 10:28:47.128  8447  8447 I CommonFrescoView: [com.stv.deskplatform][1.3.1904.012] : addView(ControllableEcoImageView)-sdkversion=1.0.4
+04-10 10:28:47.212  8447  8447 I HeaderBlockHolder: [com.stv.deskplatform][1.3.1904.012] : on tab bind, position: 5
+04-10 10:28:47.283  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:47.684  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:47.737  8875  8917 I StvDownload: DownloadManager -- end write input to file
+04-10 10:28:47.738  8875  8917 D StvDownload: DownloadManager -- plugin info md5Check = true
+04-10 10:28:47.740  8875  8917 I StvPUtil: MD5Uti -- start getFileMD5 file = /storage/emulated/0/letv/.le_download/com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk
+04-10 10:28:47.760  8875  8917 I StvPUtil: MD5Uti -- getFileMD5 md5 = 58b930e6ccc85aeeee1ea73e1f20938d time/ms 20
+04-10 10:28:47.761  8875  8917 I StvDownload: DownloadManager -- check md5 pass param md5 = 58b930e6ccc85aeeee1ea73e1f20938d file md5 = 58b930e6ccc85aeeee1ea73e1f20938d
+04-10 10:28:47.761  8875  8917 I StvDownload: DownloadManager -- downloaded file md5 check pass url = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527
+04-10 10:28:47.784  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 115 mv (0xF)[m
+04-10 10:28:47.794  8875  8917 I StvDownload: DownloadManager -- downloaded success record = DownloadRecord :  did = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527 fileName = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk md5 = 58b930e6ccc85aeeee1ea73e1f20938d md5Check = true status = COMPLETED totalSize = 1111349 downloadedSize = 1111349 downloadedPath = /storage/emulated/0/letv/.le_download/com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk downloadedTime = 6496
+04-10 10:28:47.795  8875  8875 I StvDownload: DownloadService --  onStatusChanged stat = COMPLETED downloaded file name = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk
+04-10 10:28:47.855  8447  8447 I PluginUpgrade: UpgradeManager -- onStatusChanged COMPLETED downloadRecord = DownloadRecord :  did = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527 fileName = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk md5 = 58b930e6ccc85aeeee1ea73e1f20938d md5Check = true status = COMPLETED totalSize = 1111349 downloadedSize = 1111349 downloadedPath = /storage/emulated/0/letv/.le_download/com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk downloadedTime = 6496
+04-10 10:28:47.856  8447  8447 I PluginFramework -- WidgetManager: getWidget id =#com.stv.deskplatform#
+04-10 10:28:47.856  8447  8447 I PluginFramework -- WidgetManager: getWidget widget = null
+04-10 10:28:47.856  8447  8447 I PackageManagerHookHandle: getPackageInfo(com.stv.deskplatform) fail ,packageInfo is null
+04-10 10:28:47.858  8447  8932 I PluginUpgrade: DealCompletedDownload -- start check downloaded record pid = com.stv.plugin.movie
+04-10 10:28:47.858  8447  8447 D Launcher[1.3.1904.012]: [com.stv.deskplatform] DataControl -- UpgradeReport onReport plugDownload = action=plugDownload&frameVersion=1.3.1904.012&plugVersion=2019032718&desktopId=com.stv.plugin.movie&status=1
+04-10 10:28:47.859  8447  8447 D PluginUpgrade: UpgradeManager -- onReport upgrade record = UpgradeRecord [  pid = com.stv.plugin.movie name = com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk strategy = 3 localUrl = null pVersionCode = 2019032718 pVersionName = 2019032718 minDependantVersion = 0.5.0 md5 = 58b930e6ccc85aeeee1ea73e1f20938d status = 4 isNew = 1 downloadId = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527 location = Location{addTab=1, pid='com.stv.plugin.movie', pVersionCode=2019032718, adjustTab=2, tabPostion=5, executeType=1, tabStamp=1554100584}] status = 1
+04-10 10:28:47.859  8447  8447 I StvDownload: DownloadHelper -- onStatusChanged COMPLETED did = http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527
+04-10 10:28:47.859  8447  8447 I StvDownload: DownloadHelper -- onStatusChanged COMPLETED path = /storage/emulated/0/letv/.le_download/com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk
+04-10 10:28:47.859  8447  8447 D DownloadHelper: Download unbindService
+04-10 10:28:47.861  8447  8662 D Launcher[1.3.1904.012]: [com.stv.deskplatform] ReportLogUtil -- reportMsg action = tvAction msg = action=plugDownload&frameVersion=1.3.1904.012&plugVersion=2019032718&desktopId=com.stv.plugin.movie&status=1
+04-10 10:28:47.863  8875  8875 I StvDownload: DownloadService -- DownloadService onDestroy
+04-10 10:28:47.864  8875  8875 I Process : Sending signal. PID: 8875 SIG: 9
+04-10 10:28:47.869  8447  8932 D StvPUtil: AppUtil -- parsePackageName package name = com.stv.plugin.movie sub time = 11
+04-10 10:28:47.872  8447  8662 I DataReporter: [com.stv.deskplatform][1.3.1904.012] : {plugVersion=2019032718, app_version=1.3.1904, event_id=download, status=1, letv_uid=null, app_id=DeskPlatform, widget_id=103, desktopId=com.stv.plugin.movie}
+04-10 10:28:47.884  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:47.902  8447  8932 I PluginUpgrade: DealCompletedDownload -- reboot strategy record pid = com.stv.plugin.movie
+04-10 10:28:47.904  8447  8932 I PluginUpgrade: VersionRecordManager -- syncVersionRecord versionRecord = VersionRecord{id=null, pid='com.stv.plugin.movie', name='com.stv.plugin.movie_MOVIE_1.0.0.020_2019032718.apk', pVersionCode=2019032718, pVersionName='V1.0.0.020', uiVersion='8.0.342T_0409', uiType='cibn', url='http://g3cn.cp21.ott.cibntv.net/270/42/32/scloud_beta/0/800000026-wallpaper/6ad88933-4c41-4cb9-a720-1709453981cc?platid=5&splatid=527', tab_status=1, tab_addway=2, tab_pos=6, tab_type=1, tab_pid=1554100584}
+04-10 10:28:47.909  1723  1858 D WifiService: Client connection lost with reason: 4
+04-10 10:28:47.912  1723  2336 I ActivityManager: Process com.stv.deskplatform:download (pid 8875) has died
+04-10 10:28:47.912  1723  2336 I am_proc_died: [0,8875,com.stv.deskplatform:download]
+04-10 10:28:47.912  1723  2336 D ActivityManager-Keeper: service keep sticky->true
+04-10 10:28:47.912  1723  2336 D ActivityManager-Keeper: keepAlive persistent:false,pkg:com.stv.deskplatform
+04-10 10:28:48.083  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:48.109  1723  1746 I am_proc_start: [0,8933,1000,com.stv.reportlog,service,com.stv.reportlog/.service.ReportLogService]
+04-10 10:28:48.109  1723  1746 I ActivityManager: Start proc com.stv.reportlog for service com.stv.reportlog/.service.ReportLogService: pid=8933 uid=1000 gids={41000, 9997, 3003, 1028, 1015, 2001, 3002, 3001, 1007, 1023} abi=armeabi-v7a
+04-10 10:28:48.111  1723  1746 V ActivityManager-Killer: ***Creating new process com.stv.reportlog/8933 from system_server/1723
+04-10 10:28:48.134  1723  2336 I am_proc_bound: [0,8933,com.stv.reportlog]
+04-10 10:28:48.184  8933  8933 V evan    : Legal app: com.stv.reportlog - 1000
+04-10 10:28:48.192  8933  8933 I StvLogReport: ReportLogApplication, ===onCreate===
+04-10 10:28:48.234  1932  6681 D LetvHelperService: TvMasterDBHelper -- checkPermission packageName=com.stv.reportlog,type = account,al = com.stv.reportlog,,19:1,position:1,notkill:1,slient_install:1,15:1,quick_install:1,popup:1,18:1,account:1,startup:1
+04-10 10:28:48.235  8600  8617 I LetvAccount: [1.1.1.019][UserInfoProvider]appName: com.stv.reportlog, permission: system(true) app(true), match=1
+04-10 10:28:48.245  8933  8933 E StvLogReport: HttpReportManager, http boot report has done......
+04-10 10:28:48.248  8933  8933 I StvLogReport: StargazerDataReporter, ===onStart get config from Local===
+04-10 10:28:48.270  8933  8933 I StvLogReport: StargazerDataReporter, ===Local cfgversion is : 1.5.1.test
+04-10 10:28:48.272  8933  8933 I StvLogReport: StargazerDataReporter, ===Local configMap is : {playEnd=[appPn=com.letv.tv], tvAction=[action=silentUpdate, action=signalSource&signalId=1, action=promsFeedBack, action=weatherPop, action=desktopShow&desktop=(?!(?:0|1|3)&), action=cardinteractionpop&, action=screensaverShow, action=(shopdPosterClick|shopAppTabShow|shopAppSpeSubShow|detailExpose|detailAddShopCart|affOrderPageExpose|payPageExpose|payDoneExpose), action=appClose, (?x)^action=appOpen&name=[^&]+&packagename=(?!com.stv.launche|com.kuyun.common.androidtv|com.stv.tvweibo|com.stv.screenflyter|com.stv.signalsourcemanager|com.stv.stvpush|com.example.|com.google.android.leanbacklauncher|com.android.tv.settings|com.letv.myapplication|mstar.factorymenu.ui)], shutdown=[shutdown], tvaction=[action=silentUpdate, action=signalSource&signalId=1, action=promsFeedBack, action=weatherPop, action=desktopShow&desktop=(?!(?:0|1|3)&), action=cardinteractionpop&, action=screensaverShow, action=(shopdPosterClick|shopAppTabShow|shopAppSpeSubShow|detailExpose|detailAddShopCart|affOrderPageExpose|payPageExpose|payDoneExpose), action=appClose, (?x)^action=appOpen&name=[^&]+&packagename=(?!com.stv.launche|com.kuyun.common.androidtv|com.stv.tvweibo|com.stv.screenflyter|com.stv.signalsourcemanager|com.stv.stvpush|com.example.|com.google.android.leanbacklauncher|com.android.tv.settings|com.letv.myapplication|mstar.factorymenu.ui)]}
+04-10 10:28:48.278  8933  8933 E StvLogReport: AdMasterReporter,  totalSwitch : true
+04-10 10:28:48.279  8933  8933 E StvLogReport: AdMasterReporter,  commonDataSwitch : true
+04-10 10:28:48.285  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 105 mv (0x8)[m
+04-10 10:28:48.294  1723  1858 D WifiService: New client listening to asynchronous messages
+04-10 10:28:48.312  8933  8933 D SUB     : [SubManager] [getPhoneId]- fail
+04-10 10:28:48.312  8933  8933 D SUB     : [SubManager] [getPhoneId]- fail
+04-10 10:28:48.372  8933  8933 E StvLogReport: MiaoZhenReporter,  totalSwitch : true
+04-10 10:28:48.372  8933  8933 E StvLogReport: MiaoZhenReporter,  commonDataSwitch : true
+04-10 10:28:48.375  8933  8933 I StvLogReport: The MiaoZhen SDK version is : a3.4
+04-10 10:28:48.379  8933  8933 E StvLogReport: NielsenReportManager,  totalSwitch : true
+04-10 10:28:48.379  8933  8933 E StvLogReport: NielsenReportManager,  commonDataSwitch : true
+04-10 10:28:48.384  8933  8961 D SUB     : [SubManager] [getPhoneId]- fail
+04-10 10:28:48.384  8933  8961 D SUB     : [SubManager] [getPhoneId]- fail
+04-10 10:28:48.396  8933  8962 I StvLogReport: MiaoZhenReporter, ===retryCachedRequests===
+04-10 10:28:48.437  8933  8961 W ActivityThread: ClassLoader.loadClass: The class loader returned by Thread.getContextClassLoader() may fail for processes that host multiple applications. You should explicitly specify a context class loader. For example: Thread.setContextClassLoader(getClass().getClassLoader());
+04-10 10:28:48.443  8933  8961 W System.err: java.net.MalformedURLException: Protocol not found: 
+04-10 10:28:48.443  8933  8961 W System.err: 	at java.net.URL.<init>(URL.java:176)
+04-10 10:28:48.443  8933  8961 W System.err: 	at java.net.URL.<init>(URL.java:125)
+04-10 10:28:48.443  8933  8961 W System.err: 	at com.admaster.sdk.b.c.c(ConnectUtil.java:78)
+04-10 10:28:48.443  8933  8961 W System.err: 	at com.admaster.sdk.b.c.a(ConnectUtil.java:128)
+04-10 10:28:48.443  8933  8961 W System.err: 	at com.admaster.sdk.b.k.b(SdkConfigUpdateUtil.java:89)
+04-10 10:28:48.443  8933  8961 W System.err: 	at com.admaster.sdk.b.k.c(SdkConfigUpdateUtil.java:37)
+04-10 10:28:48.443  8933  8961 W System.err: 	at com.admaster.sdk.b.k.a(SdkConfigUpdateUtil.java:22)
+04-10 10:28:48.443  8933  8961 W System.err: 	at com.admaster.sdk.api.a.run(AdmasterSdk.java:59)
+04-10 10:28:48.443  8933  8961 W System.err: 	at java.lang.Thread.run(Thread.java:818)
+04-10 10:28:48.465  8933  8933 W Settings: Setting android_id has moved from android.provider.Settings.System to android.provider.Settings.Secure, returning read-only value.
+04-10 10:28:48.483  8933  8933 E StvLogReport: KuyunReportManager,  totalSwitch : true
+04-10 10:28:48.483  8933  8933 E StvLogReport: KuyunReportManager,  commonDataSwitch : true
+04-10 10:28:48.483  1220  1220 I tvos    : [37m[INFO] Change to Voltage: 125 mv (0x17)[m
+04-10 10:28:48.518  8933  8933 I [T2.0.1]EuiAgnes_EuiAgnesProxy: euiAgnesServerAvailable: false
+04-10 10:28:48.518  8933  8933 I [T2.0.1]EuiAgnes_Agnes: init, euiAgnesServerAvailable:false
+                                                                                           
